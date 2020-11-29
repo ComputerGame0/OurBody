@@ -165,8 +165,20 @@
 
 משחקים הדומים למשחק הזה :
 אנטומיה של גוף האדם -חידון על איברי הגוף
+
+![image](https://user-images.githubusercontent.com/57682267/100545996-82a7fe00-3267-11eb-9877-a074c851fc52.png)
+
+
 Human body
-Human body parts 
+
+![image](https://user-images.githubusercontent.com/57682267/100546010-99e6eb80-3267-11eb-81ea-20efb7ee0cf8.png)
+
+
+Human body parts
+
+![image](https://user-images.githubusercontent.com/57682267/100546027-b2570600-3267-11eb-995a-45c444236e63.png)
+
+
 לא מצאנו משחקים הדומים לרעיון המשחקי שלנו, מצאנו רעיונות דומים למטרה.
 רוב המשחקים הם בצורת לימוד- שאלות על גוף האדם, תמונות.
 מה שמייחד את המשחק שלנו הוא הלימוד בדרך שאינה מרגישים שהיא לימודית- העברת משחק בדרך חווייתית.
