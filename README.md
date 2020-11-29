@@ -1,5 +1,6 @@
-<div dir='rtl' lang='he'>
 # OurBody
+<div dir='rtl' lang='he'>
+
 
 **משחק חוויתי בתוך גוף האדם הנועד ללמד ולחוות את הגוף**
 
@@ -169,12 +170,12 @@
 ![image](https://user-images.githubusercontent.com/57682267/100545996-82a7fe00-3267-11eb-9877-a074c851fc52.png)
 
 
-Human body
+#Human body
 
 ![image](https://user-images.githubusercontent.com/57682267/100546010-99e6eb80-3267-11eb-81ea-20efb7ee0cf8.png)
 
 
-Human body parts
+#Human body parts
 
 ![image](https://user-images.githubusercontent.com/57682267/100546027-b2570600-3267-11eb-995a-45c444236e63.png)
 
