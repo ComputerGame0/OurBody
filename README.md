@@ -4,8 +4,7 @@
 <br />
 <br />
   
-![picture2](https://user-images.githubusercontent.com/57682267/102871135-b8936900-4446-11eb-89b6-2d9335149039.jpg)
-  
+![OpenSceneBackground](https://user-images.githubusercontent.com/57682267/103309527-fdf30000-4a1d-11eb-920b-34d21615a58d.jpg)  
  <br /> 
  
 במשחק יש לנו: <br />
