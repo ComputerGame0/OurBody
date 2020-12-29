@@ -24,14 +24,17 @@
 במטלה זו הראנו שלב התחלתי<br />
 להכרות עם המשחק<br />
 
+בתחילת המשחק השחקן רואה מסך פתיחה למשך כמה שניות<br />
+[ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/ShowFirstScreen.cs) <br />
+
 השחקן זז בעזרת מקדי המקדלת<br />
 הוא יכול להסתכל לצדדים ע"י הזזת עכבר.<br />
 
-[השחקן זז ע"י הקוד הבא:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/1-player/CharacterKeyboardMover.cs) <br />
+[השחקן זז ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/1-player/CharacterKeyboardMover.cs) <br />
 
 קוד זה נמצא על רכיב שנמצא על השחקן<br />
 
-[השחקן מסתכל לצדדים ע"י הקוד הבא:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/1-player/LookX.cs) <br />
+[השחקן מסתכל לצדדים ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/1-player/LookX.cs) <br />
  
  
 בנוסף יש על השחקן קוד האחראי על התנגשויות: <br />
@@ -40,31 +43,48 @@
 במידה ופוגע בחיידק רע כמות החיים שלו יורדת.<br />
 כאשר נגמר לשחקן החיים הוא מתחיל את השלב מחדש.<br />
 
-[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/5-bacterias/OnTriggerPlayer.cs) <br />
+[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/5-bacterias/OnTriggerPlayer.cs) <br />
 
 בנוסף על השחקן הקוד האחראי על העכבר שלא יצא מגבולות המשחק עד שנסמן אחרת.<br />
-[ניתן לראות ע"י הקוד הבא מהשיעור:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/1-player/CursorHider.cs) <br />
+[ניתן לראות ע"י הקוד הבא מהשיעור:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/1-player/CursorHider.cs) <br />
 
 הקוד האחראי על העברת שלב:<br />
-[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/3-objects/NextLevel.cs) <br />
+[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/NextLevel.cs) <br />
 
 על החיידקים הרעים ישנו קוד האחראי על תזוזתם<br />
 החיידיקם מתקרבים לשחקן<br /> 
 
-[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/5-bacterias/mover_oscillator.cs) <br />
+[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/5-bacterias/mover_oscillator.cs) <br />
 
 בנוסף במשחק יש 2 רכיבי טקסט:<br />
 אחד האחראי על הסבר המשחק<br />
 והשני אחראי על הצגת נקודות השחקן<br />
 
-[ הסבר המשחק:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/4-Text/ShowText.cs) <br />
+[ הסבר המשחק:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/4-Text/ShowText.cs) <br />
 
 טקסט הצגת הנקודות מתעדכן דרך הקוד של התנגשויות<br />
 ברגע שיש התנגשות בחיידק טוב,<br />
 נעלה את כמות הנקודות<br />
 ונעדכן את הטקסט<br />
 
-[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/Our_Body_30Sec/blob/main/Assets/Scripts/5-bacterias/OnTriggerPlayer.cs) <br />
+[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/5-bacterias/OnTriggerPlayer.cs) <br />
+
+רכיב המוסיף חיים לשחקן <br />
+
+[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/ELife.cs) <br />
+
+רכיב המוסיף נקודות מיוחדות לשחקן <br />
+
+[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/EScore.cs) <br />
+
+כאשר השחקן מסיים את השלב, הוא מקבל סיכום על הצלחתו: <br />
+
+[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/GetInfo.cs) <br />
+
+השחקן יכול להגביר את מהירותו ע"י לחיצה על<br /> 
+SHIFT <br />
+[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/1-player/CharacterKeyboardMover.cs) <br />
+
 
 
 
