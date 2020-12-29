@@ -7,8 +7,7 @@
 ![picture2](https://user-images.githubusercontent.com/57682267/102871135-b8936900-4446-11eb-89b6-2d9335149039.jpg)
   
  <br /> 
-  
-במטלה זו אנחנו מציגות  כמה שניות מהמשחק הסופי שלנו <br />
+ 
 במשחק יש לנו: <br />
 שחקן <br /> 
 חיידקים טובים <br />
@@ -28,11 +27,10 @@
 [ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/ShowFirstScreen.cs) <br />
 
 השחקן זז בעזרת מקדי המקדלת<br />
-הוא יכול להסתכל לצדדים ע"י הזזת עכבר.<br />
-
 [השחקן זז ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/1-player/CharacterKeyboardMover.cs) <br />
 
-קוד זה נמצא על רכיב שנמצא על השחקן<br />
+הוא יכול להסתכל לצדדים ע"י הזזת עכבר.<br />
+קוד זה נמצא על רכיב שעל השחקן<br />
 
 [השחקן מסתכל לצדדים ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/1-player/LookX.cs) <br />
  
@@ -56,16 +54,20 @@
 
 [ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/5-bacterias/mover_oscillator.cs) <br />
 
-בנוסף במשחק יש 2 רכיבי טקסט:<br />
+בנוסף במשחק יש 3 רכיבי טקסט:<br />
 אחד האחראי על הסבר המשחק<br />
-והשני אחראי על הצגת נקודות השחקן<br />
+השני אחראי על הצגת נקודות השחקן<br />
+השלישי אחראי על הצגת מהירות השחקן<br />
 
-[ הסבר המשחק:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/4-Text/ShowText.cs) <br />
+[ ניתן לראות ע"י הקוד הבא האחראי על הסבר המשחק:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/4-Text/ShowText.cs) <br />
 
-טקסט הצגת הנקודות מתעדכן דרך הקוד של התנגשויות<br />
+טקסט הצגת הנקודות והמהירות מתעדכנים דרך הקוד של התנגשויות<br />
 ברגע שיש התנגשות בחיידק טוב,<br />
 נעלה את כמות הנקודות<br />
 ונעדכן את הטקסט<br />
+וברגע שהשחקן לוחץ על<br /> 
+SHIFT <br />
+נעדכן את מהירותו <br />
 
 [ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/5-bacterias/OnTriggerPlayer.cs) <br />
 
