@@ -26,7 +26,7 @@
 בתחילת המשחק השחקן רואה מסך פתיחה למשך כמה שניות<br />
 [ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/ShowFirstScreen.cs) <br />
 
-השחקן זז בעזרת מקדי המקדלת<br />
+השחקן זז בעזרת מקשי המקדלת<br />
 [השחקן זז ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/1-player/CharacterKeyboardMover.cs) <br />
 
 הוא יכול להסתכל לצדדים ע"י הזזת עכבר.<br />
@@ -56,10 +56,10 @@
 
 בנוסף במשחק יש 3 רכיבי טקסט:<br />
 אחד האחראי על הסבר המשחק<br />
+[ניתן לראות ע"י הקוד הבא :](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/4-Text/ShowText.cs) <br />
+
 השני אחראי על הצגת נקודות השחקן<br />
 השלישי אחראי על הצגת מהירות השחקן<br />
-
-[ ניתן לראות ע"י הקוד הבא האחראי על הסבר המשחק:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/4-Text/ShowText.cs) <br />
 
 טקסט הצגת הנקודות והמהירות מתעדכנים דרך הקוד של התנגשויות<br />
 ברגע שיש התנגשות בחיידק טוב,<br />
@@ -71,17 +71,12 @@ SHIFT <br />
 
 [ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/5-bacterias/OnTriggerPlayer.cs) <br />
 
-רכיב המוסיף חיים לשחקן <br />
+ 
+[רכיב המוסיף חיים לשחקן-ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/ELife.cs) <br />
 
-[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/ELife.cs) <br />
+[רכיב המוסיף נקודות מיוחדות לשחקן-ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/EScore.cs) <br />
 
-רכיב המוסיף נקודות מיוחדות לשחקן <br />
-
-[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/EScore.cs) <br />
-
-כאשר השחקן מסיים את השלב, הוא מקבל סיכום על הצלחתו: <br />
-
-[ניתן לראות ע"י הקוד הבא:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/GetInfo.cs) <br />
+[כאשר השחקן מסיים את השלב, הוא מקבל סיכום על הצלחתו:](https://github.com/ComputerGame0/OurBody/blob/main/Assets/Scripts/3-objects/GetInfo.cs) <br />
 
 השחקן יכול להגביר את מהירותו ע"י לחיצה על<br /> 
 SHIFT <br />
